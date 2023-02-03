@@ -1,2 +1,2 @@
 # portfolio
-Meu site portfólio de programador Fullstack
+Meu site portfólio de programador Fullstack.
