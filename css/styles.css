@@ -93,20 +93,43 @@ section{
     color: var(--white-color);
     font-size: 2.75rem;
     margin-bottom: 64px;
+    text-align: center;
 }
 .section-wrapper figure{
     max-width: 1024px;
     margin: auto;
-    align-items: center;
 }
 .section-wrapper p{
-    margin-left: 32px;
+    /*margin-left: 32px;*/
     font-size: 1.25rem;
+    line-height: 1.5;
+}
+.section-wrapper p:nth-of-type(2){
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .foto{
     width: 150px;
     height: auto;
     border-radius: 50%;
+    float: left;
+    margin-right: 32px;
+}
+.grid-habilidade{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    /*column-gap: 10px;*/
+    max-width: 1024px;
+    margin: auto;
+}
+.grid-habilidade-box{
+    background-color: var(--dark-gold);
+    text-align: center;
+    padding: 20px;
+}
+.hability-logo{
+    width: 100px;
+    height: 100px;
 }
 /*
 @media screen and (max-height: 768px){
