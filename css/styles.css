@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --dark-gold: #f5af1d;
+    --white-color: #FDFDFD;
+    --black: #191919;
+    --dark-blue: #5789b6;
+    --container-size: 1440px;
+}
+body{
+    background-color: #191919;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0,0,0,0.75), rgba(0, 0, 0, 0.95)), url('../images/programming-1873854_1920.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding: 0 32px;
+    align-items: center;
+}
+header nav{
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    /*padding-left: 15px;*/
+}
+header a{
+    color: var(--dark-gold);
+    font-size: 1.25rem;
+    padding: 15px;
+}
+header a:hover{
+    color: var(--white-color);
+}
+.header-wrapper{
+    width: 100%;
+    max-width: var(--container-size);
+    /*align-items: center;*/
+    justify-content: center;
+    padding: 0 15px;
+    height: calc(100% - 60px);
+}
+header h1{
+    color: var(--white-color);
+    font-size: 3rem;
+}
+.hightlight{
+    color: var(--dark-blue);
+}
+.vector-img{
+    width: 450px;
+}
+.contact-btn{
+    background-color: var(--dark-gold);
+    color: var(--black);
+    /*margin-left: 30px;*/
+    padding: 15px 80px;
+    width: 350px;
+    margin-bottom: 64px;
+    border-radius: 100px;
+    text-align: center;
+}
+section{
+    align-items: center;
+    padding: 80px 0;
+}
+.section-wrapper{
+    width: 100%;
+    /*max-width: var(--container-size);*/
+    max-width: var(--container-size);
+    color: var(--white-color);
+}
+.section-wrapper h2{
+    color: var(--white-color);
+    font-size: 2.75rem;
+    margin-bottom: 64px;
+}
+.section-wrapper figure{
+    max-width: 1024px;
+    margin: auto;
+    align-items: center;
+}
+.section-wrapper p{
+    margin-left: 32px;
+    font-size: 1.25rem;
+}
+.foto{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+/*
+@media screen and (max-height: 768px){
+    header{
+        height: 100vh;
+    }
+}
+*/
