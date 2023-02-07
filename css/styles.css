@@ -143,15 +143,21 @@ section{
     max-width: 1024px;
     margin: auto;
     background-color: var(--white-color);
-    padding: 32px 0;
+    padding: 40px;
+    overflow: hidden;
+}
+.carrosel-container{
+    overflow: hidden;
 }
 .carrosel video{
-    width: 75%;
+    width: 50%;
     height: auto;
     margin: 0 64px;
 }
 .carrosel-description{
-    padding: 16px 32px;
+    padding: 16px 64px;
+    width: 100%;
+    margin: auto;
 }
 .carrosel-description span{
     color: var(--dark-blue);
@@ -160,11 +166,28 @@ section{
 }
 .carrosel-description p{
     color: var(--black);
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin: 10px 0 !important;
 }
 .prev-slide, .next-slide{
     color: var(--black);
     font-size: 2.5rem;
     font-weight: 900;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.slide{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    from { display: none;}
+    to {display: flex}
 }
 /*
 @media screen and (max-height: 768px){

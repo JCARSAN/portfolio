@@ -132,18 +132,44 @@
             <div class="section-wrapper">
                 <h2>Portfólio</h2>
                 <div class="carrosel flex-container-column justify-content-center align-items-center">
-                    <div class="carrosel-controls flex-container-row justify-content-center align-items-center">
-                        <span class="prev-slide"><</span>
-                        <video src="./videos/video.mp4" controls></video>
-                        <span class="next-slide">></span>
-                    </div>
-                    <div class="carrosel-description">
-                        <span>Descrição do Projeto: </span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit expedita excepturi aspernatur sint, mollitia ipsum. Ipsam, corporis perferendis! Provident culpa praesentium ex fugiat. Voluptates sint sapiente corporis nostrum iure.</p>
-                    </div>
-                    <div class="carrosel-description">
-                        <span>Tecnologias utilizadas: </span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sit expedita excepturi aspernatur sint, mollitia ipsum. Ipsam, corporis perferendis! Provident culpa praesentium ex fugiat. Voluptates sint sapiente corporis nostrum iure.</p>
+                    <div class="carrosel-controls flex-container-row justify-content-center">
+                        <span class="prev-slide" id="prev-slide"><</span>
+                        <div class="carrosel-container flex-container-row">
+                            <div class="slide">
+                                <video src="./videos/video.mp4" controls></video>
+                                <div class="carrosel-description">
+                                    <span>Projeto:</span>
+                                    <p>Videoconferência App.</p>
+                                    <span>Descrição do Projeto: </span>
+                                    <p>Criação de um aplicativo de videoconferência com compartilhamento de imagens, tela, arquivos e chat para a startup HiperSchool.</p>
+                                    <span>Tecnologias utilizadas: </span>
+                                    <p>Node.js, jQuery, HTML, CSS e Javascript.</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <video src="./videos/video.mp4" controls></video>
+                                <div class="carrosel-description">
+                                    <span>Projeto:</span>
+                                    <p>Upload de Imagens.</p>
+                                    <span>Descrição do Projeto: </span>
+                                    <p>Criação de um app que permite selecionar fotos presentes no computador e salvá-las em uma nuvem.</p>
+                                    <span>Tecnologias utilizadas: </span>
+                                    <p>React, Next.js, ChackraUI e Typescript</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <video src="./videos/video.mp4" controls></video>
+                                <div class="carrosel-description">
+                                    <span>Projeto:</span>
+                                    <p>Blog Spacetravelling.</p>
+                                    <span>Descrição do Projeto: </span>
+                                    <p>Criação de um blog que é alimentado pela API do CMS Prismic.</p>
+                                    <span>Tecnologias utilizadas: </span>
+                                    <p>React, Next.js, ChackraUI, Typescript</p>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="next-slide" id="next-slide">></span>
                     </div>
                 </div>
             </div>
@@ -159,5 +185,6 @@
             </div>
         </section>
     </main>
+    <script src="./js/site.js"></script>
 </body>
 </html>
